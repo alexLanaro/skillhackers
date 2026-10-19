@@ -1,0 +1,31 @@
+{%- set t = i18n[lang] -%}
+{%- set p = "/en/" if lang == "en" else "/" -%}
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+<meta charset="UTF-8">
+{%- if base %}
+<base href="{{ base }}">
+{%- endif %}
+{%- if noindex %}
+<meta name="robots" content="noindex">
+{%- endif %}
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ title }}</title>
+<meta name="description" content="{{ description }}">
+{%- if not noindex %}
+<link rel="canonical" href="{{ site.url }}{{ p }}{{ '' if key == 'index.html' else key }}">
+<link rel="alternate" hreflang="it" href="{{ site.url }}/{{ '' if key == 'index.html' else key }}">
+<link rel="alternate" hreflang="en" href="{{ site.url }}/en/{{ '' if key == 'index.html' else key }}">
+{%- endif %}
+<link rel="icon" href="/assets/img/favicon-32.png" sizes="32x32">
+<link rel="icon" href="/assets/img/favicon-512.png" sizes="512x512">
+<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+{% include "partials/nav.njk" %}
+{{ content | safe }}
+{% include "partials/footer.njk" %}
+<script src="/assets/js/main.js"></script>
+</body>
+</html>

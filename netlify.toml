@@ -1,0 +1,7 @@
+# Netlify legge queste impostazioni da solo: non serve configurare nulla dal pannello.
+[build]
+  command = "npm run build"
+  publish = "_site"
+
+[build.environment]
+  NODE_VERSION = "22"

@@ -1,0 +1,135 @@
+---
+layout: "layouts/base.njk"
+lang: "en"
+key: "caso-studio-ebtl.html"
+title: "EBTL case study | Skill Hackers"
+description: "How we mapped EBTL's processes and designed a four-phase roadmap with Younity, N8N and Microsoft Planner."
+permalink: "en/caso-studio-ebtl.html"
+---
+<header class="hero hero--compact">
+  <div class="container">
+    <div class="breadcrumb"><a href="casi-studio.html">Case studies</a> / EBTL</div>
+    
+    <h1>EBTL: from three disconnected channels <em>to a single platform.</em></h1>
+    <p class="hero__sub">A public body running vocational training and communication with two teams, dozens of courses a year and a set of tools that didn't talk to each other. The most comprehensive project we've delivered so far.</p>
+    
+  </div>
+</header>
+
+<section>
+  <div class="container">
+    <div class="case spot reveal">
+      <div>
+        <span class="tag tag--on-dark">The problem</span>
+        <h3>Two departments, three enrollment channels, no overall view</h3>
+        <p>The Training department handled enrollments from companies, private workers and special cases across three disconnected channels: Excel files, online forms and the internal management system. Every catalog change had to be copied by hand into all three. At peak times, distributing course materials alone generated up to 180 manual emails a day. The Communication department relied on a single person to connect the website, newsletter, social media and external consultants: without her, everything stopped.</p>
+        <span class="tag tag--on-dark">The approach</span>
+        <p>Before proposing any automation, we mapped the entire current state: four working sessions with both department heads and the vendors of the existing systems, turned into a detailed process document. Only once every step was explicit, exceptions included, did we design the future setup.</p>
+        <span class="tag tag--on-dark">The outcome</span>
+        <p>A four-phase roadmap over about nine months, with Younity as the central platform, N8N orchestrating the automations and Microsoft Planner as the shared task system, open to external consultants too.</p>
+      </div>
+      <div class="facts">
+  <h4>Project sheet</h4>
+  <dl>
+<div><dt>Client</dt><dd>EBTL, public body in the tourism sector</dd></div>
+<div><dt>Duration</dt><dd>About 9 months, in 4 phases</dd></div>
+<div><dt>Departments</dt><dd>Training and Communication</dd></div>
+<div><dt>Technology</dt><dd>Younity, N8N, Microsoft Planner and Teams</dd></div>
+<div><dt>Status</dt><dd>Roadmap approved, first changes already in use</dd></div>
+  </dl>
+</div>
+    </div>
+  </div>
+</section>
+
+<section class="band">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="tag">Methodology</span>
+      <h2 class="eyebrow-title">Why we map before we automate</h2>
+      <p>A common mistake is jumping straight to the technology. An automated system built on an unclear process, or on messy data, only creates faster problems.</p>
+    </div>
+    <div class="pillars">
+      <div class="pillar pillar--ink spot lift reveal"><h3>How we mapped the current state</h3><ul><li>Working sessions with each department head</li><li>Interviews with the vendors of existing systems</li><li>A shared process document summarizing it all</li><li>Exceptions and edge cases made explicit, not just the ideal flow</li></ul></div>
+      <div class="pillar pillar--blue spot lift reveal"><h3>What a serious mapping reveals</h3><ul><li>The real bottlenecks, often different from the perceived ones</li><li>Critical dependencies on single people</li><li>The data that needs fixing before it can be automated</li><li>Real priorities: what to solve now and what can wait</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="tag">A mapped process</span>
+      <h2 class="eyebrow-title">A concrete example: company enrollments</h2>
+      <p>One of the processes we analyzed, before and after the portal and automations.</p>
+    </div>
+    
+<div class="flow-compare">
+  <div class="flow flow--before">
+    <div class="flow__title">Before<span class="pill pill--grey">manual</span></div>
+    <p class="flow__sub">Every step weighs on the organization's team</p>
+    <ol class="flow__steps">
+<li class="flow__step"><span class="flow__num">1</span><span>Course catalog emailed as an Excel file</span></li>
+<li class="flow__step"><span class="flow__num">2</span><span>The company fills it in and sends it back</span></li>
+<li class="flow__step"><span class="flow__num">3</span><span>Names checked by hand in the management system</span></li>
+<li class="flow__step"><span class="flow__num">4</span><span>Phone follow-ups for missing data</span></li>
+    </ol>
+  </div>
+  <div class="flow flow--after">
+    <div class="flow__title">After<span class="pill pill--cyan">automated</span></div>
+    <p class="flow__sub">The team only steps in on exceptions</p>
+    <ol class="flow__steps">
+<li class="flow__step"><span class="flow__num">1</span><span>The company logs into the portal with its own credentials</span></li>
+<li class="flow__step"><span class="flow__num">2</span><span>It selects employees from an already-synced list</span></li>
+<li class="flow__step"><span class="flow__num">3</span><span>The system checks automatically and flags only anomalies</span></li>
+<li class="flow__step"><span class="flow__num">4</span><span>Automatic email reminders until confirmation</span></li>
+    </ol>
+  </div>
+  <p class="flow-compare__caption">The workload shifts from the organization's team to the company, which enters the names, and to the system, which checks them.</p>
+</div>
+
+  </div>
+</section>
+
+<section class="band">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="tag">The architecture</span>
+      <h2 class="eyebrow-title">How Younity, N8N and Planner work together</h2>
+      <p>Three tools, three distinct roles: no overlap, no system doing another's job.</p>
+    </div>
+    <div class="pillars pillars--3">
+      <div class="pillar pillar--blue spot lift reveal"><h3>Younity, the central platform</h3><p>The single source of truth for catalog, enrollments, contacts and website. Add a course and its public page is generated automatically: no manual uploads, no mismatches.</p></div>
+      <div class="pillar pillar--ink spot lift reveal"><h3>N8N, connecting the systems</h3><p>Connects Younity, the existing management system and Microsoft 365. It handles reminders, course materials, end-of-course certificates, and creates communication tasks for every new course.</p></div>
+      <div class="pillar pillar--ink spot lift reveal"><h3>Microsoft Planner, collaboration</h3><p>Replaces personal spreadsheets and scattered tools with one task system, for course preparation and the editorial plan alike. External consultants join as guests in Teams.</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="tag">The roadmap</span>
+      <h2 class="eyebrow-title">Four phases, not one big-bang change</h2>
+      <p>No automation is built before the underlying data is reliable. That's why phase one works on the foundations.</p>
+    </div>
+    <div class="timeline">
+      <div class="timeline-step"><div class="timeline-step__dot"></div><div class="timeline-step__when">Phase 1, months 1-2</div><h4>Foundations</h4><p>Platform setup, first contact sync, and shared task management live within one or two weeks.</p></div>
+      <div class="timeline-step"><div class="timeline-step__dot"></div><div class="timeline-step__when">Phase 2, months 3-5</div><h4>Enrollment portals</h4><p>A portal for companies, one for private workers, and handling of special cases outside the management system.</p></div>
+      <div class="timeline-step"><div class="timeline-step__dot"></div><div class="timeline-step__when">Phase 3, months 5-8</div><h4>Automations</h4><p>Reminders, course materials, certificates and satisfaction surveys with a results summary.</p></div>
+      <div class="timeline-step"><div class="timeline-step__dot"></div><div class="timeline-step__when">Phase 4, months 8-9</div><h4>Optimization</h4><p>Fine-tuning based on real use and consolidated analysis of training quality.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="container">
+    <div class="cta-band reveal">
+      <div>
+        <h2>Have similar processes to sort out?</h2>
+        <p>Let's start with a call to see where time is being lost today.</p>
+      </div>
+      <a href="{{ site.booking }}" class="btn btn--primary" target="_blank" rel="noopener">Book a call <span class="arrow" aria-hidden="true">→</span></a>
+    </div>
+  </div>
+</section>

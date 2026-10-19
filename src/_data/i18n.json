@@ -1,0 +1,126 @@
+{
+  "it": {
+    "nav": {
+      "consulting": "Consulenza",
+      "training": "Formazione",
+      "cases": "Case study",
+      "contact": "Contatti"
+    },
+    "corp": [
+      "Formazione Corporate",
+      "Percorsi su misura per i team aziendali"
+    ],
+    "od": [
+      "Formazione On Demand",
+      "Corsi registrati per professionisti"
+    ],
+    "lms": [
+      "Accedi alla piattaforma corsi",
+      "Per chi è già iscritto a un corso"
+    ],
+    "book": "Prenota una call",
+    "menu": "Apri il menu",
+    "footerDesc": "Digital transformation e formazione corporate sull'ecosistema Microsoft. Lavoriamo con aziende ed enti in tutta Italia.",
+    "fServices": "Servizi",
+    "fCompany": "Azienda",
+    "fContact": "Contatti",
+    "servicesLinks": [
+      {
+        "href": "consulenza.html",
+        "label": "Consulenza e implementazione"
+      },
+      {
+        "href": "consulenza.html#cto",
+        "label": "CTO / Head of IT a noleggio"
+      },
+      {
+        "href": "formazione-corporate.html",
+        "label": "Formazione Corporate"
+      },
+      {
+        "href": "formazione-on-demand.html",
+        "label": "Formazione On Demand"
+      }
+    ],
+    "companyLinks": [
+      {
+        "href": "casi-studio.html",
+        "label": "Case study"
+      },
+      {
+        "href": "contatti.html",
+        "label": "Contatti"
+      },
+      {
+        "href": "https://learn.skillhackers.it",
+        "label": "Piattaforma corsi"
+      }
+    ],
+    "rights": "© 2026 Skill Hackers. Tutti i diritti riservati.",
+    "vatLabel": "P.IVA",
+    "carPrev": "Loghi precedenti",
+    "carNext": "Loghi successivi"
+  },
+  "en": {
+    "nav": {
+      "consulting": "Consulting",
+      "training": "Training",
+      "cases": "Case studies",
+      "contact": "Contact"
+    },
+    "corp": [
+      "Corporate Training",
+      "Tailor-made programs for company teams"
+    ],
+    "od": [
+      "On Demand Training",
+      "Recorded courses for professionals"
+    ],
+    "lms": [
+      "Go to the course platform",
+      "For students already enrolled"
+    ],
+    "book": "Book a call",
+    "menu": "Open menu",
+    "footerDesc": "Digital transformation and corporate training on the Microsoft ecosystem. We work with companies and public bodies across Italy.",
+    "fServices": "Services",
+    "fCompany": "Company",
+    "fContact": "Contact",
+    "servicesLinks": [
+      {
+        "href": "consulenza.html",
+        "label": "Consulting & implementation"
+      },
+      {
+        "href": "consulenza.html#cto",
+        "label": "Fractional CTO / Head of IT"
+      },
+      {
+        "href": "formazione-corporate.html",
+        "label": "Corporate Training"
+      },
+      {
+        "href": "formazione-on-demand.html",
+        "label": "On Demand Training"
+      }
+    ],
+    "companyLinks": [
+      {
+        "href": "casi-studio.html",
+        "label": "Case studies"
+      },
+      {
+        "href": "contatti.html",
+        "label": "Contact"
+      },
+      {
+        "href": "https://learn.skillhackers.it",
+        "label": "Course platform"
+      }
+    ],
+    "rights": "© 2026 Skill Hackers. All rights reserved.",
+    "vatLabel": "VAT no.",
+    "carPrev": "Previous logos",
+    "carNext": "Next logos"
+  }
+}

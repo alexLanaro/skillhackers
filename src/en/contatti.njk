@@ -1,0 +1,37 @@
+---
+layout: "layouts/base.njk"
+lang: "en"
+key: "contatti.html"
+title: "Contact | Skill Hackers"
+description: "Email us or book a call to talk about your digital transformation or training project."
+permalink: "en/contatti.html"
+---
+<header class="hero hero--compact">
+  <div class="container">
+    
+    <div class="hero__rotator" data-rotate="[&quot;a process to simplify&quot;, &quot;a team to train&quot;, &quot;a stalled project&quot;, &quot;a quote&quot;]">Write to us about <b>a process to simplify</b><span class="caret" aria-hidden="true"></span></div>
+    <h1>Let's talk.</h1>
+    <p class="hero__sub">Whether it's a process to unblock or a team to train, email us or book a call directly.</p>
+    
+  </div>
+</header>
+
+<section>
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-card lift reveal">
+        <span class="tag">By email</span>
+        <h3>Write to us</h3>
+        <p>For larger projects, quote requests or general questions. We reply within one or two business days.</p>
+        <a href="mailto:{{ site.email }}" class="btn btn--ghost">{{ site.email }}</a>
+      </div>
+      <div class="contact-card lift reveal">
+        <span class="tag">On a call</span>
+        <h3>Book an intro call</h3>
+        <p>The fastest way to find out if and how we can help. Pick whatever time suits you from the calendar.</p>
+        <a href="{{ site.booking }}" class="btn btn--primary" target="_blank" rel="noopener">Book a call <span class="arrow" aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+<div style="height:40px"></div>

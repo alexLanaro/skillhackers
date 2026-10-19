@@ -1,0 +1,24 @@
+{#- Carosello clienti su due righe. L'elenco dei loghi è in _data/clients.json -#}
+{%- set t = i18n[lang] -%}
+{%- set half = ((clients | length) / 2) | round(0, "ceil") -%}
+{%- set rows = [clients.slice(0, half), clients.slice(half)] -%}
+<section class="logo-strip">
+  <div class="container">
+    <p class="logo-strip__label">{{ carouselLabel }}</p>
+    <div class="carousel">
+      {%- for row in rows %}
+      <div class="carousel__viewport" data-speed="{{ '0.4' if loop.first else '-0.4' }}">
+        <div class="carousel__track">
+          {%- for c in row %}
+          <div class="carousel__item"><img src="{{ c.logo }}" alt="{{ c.name }}" loading="lazy" draggable="false" onerror="this.outerHTML='&lt;span class=&quot;carousel__fallback&quot;&gt;{{ c.name | replace("'", "\\'") | safe }}&lt;/span&gt;'"></div>
+          {%- endfor %}
+        </div>
+      </div>
+      {%- endfor %}
+      <div class="carousel__controls">
+        <button class="carousel__btn" data-dir="-1" aria-label="{{ t.carPrev }}">←</button>
+        <button class="carousel__btn" data-dir="1" aria-label="{{ t.carNext }}">→</button>
+      </div>
+    </div>
+  </div>
+</section>

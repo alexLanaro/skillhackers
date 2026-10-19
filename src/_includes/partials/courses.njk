@@ -1,0 +1,27 @@
+{#- Corsi a tendina della formazione corporate. Contenuti in _data/courses.json -#}
+{%- set c = courses[lang] -%}
+{%- for course in c.list %}
+<div class="acc reveal">
+  <button class="acc__btn" aria-expanded="false">
+    <span><span class="acc__title">{{ course.title }}</span><span class="acc__meta">{{ course.subtitle }}</span></span>
+    <span class="acc__icon" aria-hidden="true"></span>
+  </button>
+  <div class="acc__panel"><div>
+    <div class="acc__body">
+      <dl class="acc__facts">
+        <dt>{{ c.labels.target }}</dt><dd>{{ course.target }}</dd>
+        <dt>{{ c.labels.goal }}</dt><dd>{{ course.goal }}</dd>
+        <dt>{{ c.labels.duration }}</dt><dd>{{ course.duration }}</dd>
+      </dl>
+      <div class="acc__program">
+        <h4>{{ c.labels.program }}</h4>
+        <ul>
+          {%- for item in course.program %}
+          <li>{{ item }}</li>
+          {%- endfor %}
+        </ul>
+      </div>
+    </div>
+  </div></div>
+</div>
+{%- endfor %}

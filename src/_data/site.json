@@ -1,0 +1,19 @@
+{
+  "url": "https://skillhackers.it",
+  "booking": "https://bookings.cloud.microsoft/book/Sitoweb@skillhackers.it",
+  "email": "info@skillhackers.it",
+  "vat": "305848937",
+  "linkedin": "https://www.linkedin.com/in/alexlanaro/",
+  "platform": "https://learn.skillhackers.it",
+  "platformLogin": "https://learn.skillhackers.it/users/sign_in",
+  "pages": [
+    "index.html",
+    "consulenza.html",
+    "formazione-corporate.html",
+    "formazione-on-demand.html",
+    "casi-studio.html",
+    "caso-studio-ebtl.html",
+    "caso-studio-cariverona.html",
+    "contatti.html"
+  ]
+}

@@ -1,0 +1,37 @@
+---
+layout: "layouts/base.njk"
+lang: "it"
+key: "contatti.html"
+title: "Contatti | Skill Hackers"
+description: "Scrivici o prenota una call per parlare del tuo progetto di digital transformation o di formazione."
+permalink: "contatti.html"
+---
+<header class="hero hero--compact">
+  <div class="container">
+    
+    <div class="hero__rotator" data-rotate="[&quot;un processo da semplificare&quot;, &quot;un team da formare&quot;, &quot;un progetto da far ripartire&quot;, &quot;un preventivo&quot;]">Scrivici per <b>un processo da semplificare</b><span class="caret" aria-hidden="true"></span></div>
+    <h1>Parliamone.</h1>
+    <p class="hero__sub">Che sia un processo da sbloccare o un team da formare, scrivici o prenota direttamente una call.</p>
+    
+  </div>
+</header>
+
+<section>
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-card lift reveal">
+        <span class="tag">Via email</span>
+        <h3>Scrivici</h3>
+        <p>Per progetti articolati, richieste di preventivo o domande generali. Rispondiamo entro uno o due giorni lavorativi.</p>
+        <a href="mailto:{{ site.email }}" class="btn btn--ghost">{{ site.email }}</a>
+      </div>
+      <div class="contact-card lift reveal">
+        <span class="tag">Con una call</span>
+        <h3>Prenota una call conoscitiva</h3>
+        <p>Il modo più veloce per capire se e come possiamo aiutarti. Scegli tu il momento più comodo dal calendario.</p>
+        <a href="{{ site.booking }}" class="btn btn--primary" target="_blank" rel="noopener">Prenota una call <span class="arrow" aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+<div style="height:40px"></div>

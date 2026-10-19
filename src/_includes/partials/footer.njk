@@ -1,0 +1,43 @@
+{#- Footer: link e testi in _data/i18n.json, contatti e P.IVA in _data/site.json -#}
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <div class="footer__logo">
+        <img src="/assets/img/logo.png" alt="Skill Hackers">
+        <p>{{ t.footerDesc }}</p>
+      </div>
+      <div>
+        <h5>{{ t.fServices }}</h5>
+        <ul>
+          {%- for l in t.servicesLinks %}
+          <li><a href="{{ p }}{{ l.href }}">{{ l.label }}</a></li>
+          {%- endfor %}
+        </ul>
+      </div>
+      <div>
+        <h5>{{ t.fCompany }}</h5>
+        <ul>
+          {%- for l in t.companyLinks %}
+          {%- if l.href.startsWith("http") %}
+          <li><a href="{{ l.href }}" target="_blank" rel="noopener">{{ l.label }}</a></li>
+          {%- else %}
+          <li><a href="{{ p }}{{ l.href }}">{{ l.label }}</a></li>
+          {%- endif %}
+          {%- endfor %}
+        </ul>
+      </div>
+      <div>
+        <h5>{{ t.fContact }}</h5>
+        <ul>
+          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          <li><a href="{{ site.booking }}" target="_blank" rel="noopener">{{ t.book }}</a></li>
+          <li><a href="{{ site.linkedin }}" target="_blank" rel="noopener">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>{{ t.rights }}</span>
+      <span>{{ t.vatLabel }} {{ site.vat }}</span>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,19 @@
+---
+permalink: sitemap.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+{%- for lang in ["it", "en"] %}
+{%- for pg in site.pages %}
+{%- set path = "" if pg == "index.html" else pg %}
+  <url>
+    <loc>{{ site.url }}/{{ "en/" if lang == "en" }}{{ path }}</loc>
+    <lastmod>{{ "" | today }}</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="{{ site.url }}/{{ path }}"/>
+    <xhtml:link rel="alternate" hreflang="en" href="{{ site.url }}/en/{{ path }}"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="{{ site.url }}/{{ path }}"/>
+  </url>
+{%- endfor %}
+{%- endfor %}
+</urlset>

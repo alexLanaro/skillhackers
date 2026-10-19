@@ -1,0 +1,294 @@
+{
+  "it": {
+    "labels": {
+      "target": "A chi è rivolto",
+      "goal": "Obiettivo",
+      "duration": "Durata consigliata",
+      "program": "Programma"
+    },
+    "list": [
+      {
+        "title": "Excel Base / Intermedio",
+        "subtitle": "Per chi usa Excel ogni giorno ma con gli strumenti essenziali",
+        "target": "Personale amministrativo, commerciale e operations che lavora quotidianamente con fogli di calcolo.",
+        "goal": "Ridurre il tempo speso in attività ripetitive e produrre report affidabili, senza errori da copia-incolla.",
+        "duration": "16 ore, modulabili in 8",
+        "program": [
+          "Come strutturare correttamente un file",
+          "Intervalli denominati, riferimenti assoluti e relativi",
+          "Formule su testi e date",
+          "Formule condizionali: SE, E, O, SE.ERRORE",
+          "SOMMA.PIÙ.SE e CONTA.PIÙ.SE",
+          "CERCA.VERT, CERCA.X, INDICE e CONFRONTA",
+          "Tabelle pivot",
+          "Dashboard, KPI e reporting"
+        ]
+      },
+      {
+        "title": "Excel Avanzato",
+        "subtitle": "Per utenti intermedi, controller e data analyst",
+        "target": "Utenti intermedi, controller, analisti e chiunque costruisca report periodici.",
+        "goal": "Piena autonomia nell'automazione dei processi di reporting: file che si aggiornano da soli invece di essere rifatti ogni mese.",
+        "duration": "16 ore",
+        "program": [
+          "Da fogli usa e getta a file aggiornabili",
+          "Power Query: connettersi alle fonti dati",
+          "Power Query: pulire e trasformare i dati",
+          "Connessione a fonti dati online",
+          "Strutturare file pronti per l'automazione",
+          "Power Pivot e relazioni tra tabelle",
+          "Dashboard e reporting avanzato",
+          "Formule avanzate: SCARTO, ricerche su più colonne"
+        ]
+      },
+      {
+        "title": "Power BI",
+        "subtitle": "Dal foglio Excel alla dashboard aziendale",
+        "target": "Analisti, controller e responsabili di funzione che producono o consumano report.",
+        "goal": "Passare da report statici a dashboard condivise e sempre aggiornate, su cui il management prende decisioni con dati affidabili.",
+        "duration": "16-24 ore",
+        "program": [
+          "Fondamenti di database: tabelle, campi, relazioni",
+          "Caricare e pulire i dati con Power Query",
+          "Pivot, unpivot, accoda e unisci query",
+          "Progettare il modello dati e la tabella date",
+          "DAX: misure, CALCULATE, FILTER, funzioni iterative",
+          "Time intelligence: confronti con periodi precedenti e progressivi",
+          "Principi di dashboard design, navigazione e segnalibri",
+          "Power BI Service: pubblicazione, aggiornamenti, sicurezza dei dati"
+        ]
+      },
+      {
+        "title": "Power Apps",
+        "subtitle": "App aziendali senza sviluppo tradizionale",
+        "target": "Key user, responsabili di processo e team IT che vogliono digitalizzare processi interni.",
+        "goal": "Sostituire moduli cartacei, email e fogli Excel condivisi con app interne su misura, realizzate e mantenute in casa.",
+        "duration": "16 ore",
+        "program": [
+          "Panoramica di Power Platform e casi d'uso",
+          "App canvas e app basate su modello: quando usare cosa",
+          "Fonti dati: SharePoint, Dataverse, Excel",
+          "Schermate, moduli e gallerie",
+          "Formule Power Fx per logica e validazioni",
+          "Integrazione con Power Automate",
+          "Ruoli, permessi e condivisione",
+          "Pubblicazione, gestione delle versioni e governance"
+        ]
+      },
+      {
+        "title": "Power Automate",
+        "subtitle": "Eliminare i passaggi manuali ripetitivi",
+        "target": "Chiunque gestisca attività ricorrenti su email, file, approvazioni e notifiche.",
+        "goal": "Far lavorare i sistemi tra loro: meno tempo su attività meccaniche, meno errori, processi tracciabili.",
+        "duration": "8-16 ore",
+        "program": [
+          "Flussi cloud: trigger, azioni e connettori",
+          "Automazioni con Outlook, Teams, SharePoint ed Excel",
+          "Condizioni, cicli e variabili",
+          "Espressioni e gestione dei dati dinamici",
+          "Flussi di approvazione",
+          "Gestione degli errori e monitoraggio",
+          "Introduzione a Power Automate Desktop",
+          "Buone pratiche di manutenzione"
+        ]
+      },
+      {
+        "title": "Office 365",
+        "subtitle": "Word, PowerPoint, Outlook, Teams, OneDrive e SharePoint",
+        "target": "Tutta l'azienda, in particolare i team che stanno passando a Microsoft 365 o che lo usano solo in parte.",
+        "goal": "Collaborare su documenti condivisi senza versioni duplicate né allegati via email, e ritrovare le informazioni in pochi secondi.",
+        "duration": "8-16 ore",
+        "program": [
+          "Word: stili, modelli e documenti lunghi",
+          "PowerPoint: presentazioni efficaci e coerenti con il brand",
+          "Outlook: gestione della posta, del calendario e delle regole",
+          "Teams: canali, riunioni e collaborazione",
+          "OneDrive: archiviazione e condivisione dei file",
+          "SharePoint: siti, raccolte documenti e permessi",
+          "Coautoraggio e cronologia delle versioni",
+          "Organizzare l'informazione aziendale"
+        ]
+      },
+      {
+        "title": "AI & Copilot 365",
+        "subtitle": "L'AI dentro gli strumenti che usate già",
+        "target": "Dipendenti con licenza Copilot, manager e team che stanno valutando l'adozione.",
+        "goal": "Trasformare la licenza Copilot in tempo risparmiato misurabile su email, documenti, riunioni e analisi.",
+        "duration": "8 ore",
+        "program": [
+          "Come funziona Copilot e come tratta i dati aziendali",
+          "Scrivere richieste efficaci",
+          "Copilot in Outlook e Teams: email e riunioni",
+          "Copilot in Word e PowerPoint: documenti e presentazioni",
+          "Copilot in Excel: analisi e formule",
+          "Copilot Chat e agenti",
+          "Casi d'uso per reparto",
+          "Uso responsabile e regole aziendali"
+        ]
+      },
+      {
+        "title": "Copilot Studio",
+        "subtitle": "Agenti AI costruiti sui vostri processi",
+        "target": "Team IT, key user e centri di competenza che vogliono creare assistenti AI interni.",
+        "goal": "Costruire agenti che rispondono su documenti e procedure aziendali, riducendo le richieste ripetitive a HR, IT e help desk.",
+        "duration": "8-16 ore",
+        "program": [
+          "Cosa sono gli agenti e quando servono",
+          "Creare un agente e definirne il comportamento",
+          "Fonti di conoscenza: SharePoint, siti, file",
+          "Argomenti e conversazioni guidate",
+          "Azioni con connettori e Power Automate",
+          "Autenticazione e sicurezza",
+          "Pubblicazione su Teams e sul web",
+          "Analisi dell'utilizzo e miglioramento continuo"
+        ]
+      }
+    ]
+  },
+  "en": {
+    "labels": {
+      "target": "Who it's for",
+      "goal": "Goal",
+      "duration": "Recommended length",
+      "program": "Program"
+    },
+    "list": [
+      {
+        "title": "Excel Basic / Intermediate",
+        "subtitle": "For people who use Excel daily with the essential tools",
+        "target": "Admin, sales and operations staff who work with spreadsheets every day.",
+        "goal": "Cut the time spent on repetitive tasks and produce reliable reports, without copy-paste errors.",
+        "duration": "16 hours, can be condensed to 8",
+        "program": [
+          "Structuring a file properly",
+          "Named ranges, absolute and relative references",
+          "Text and date formulas",
+          "Conditional formulas: IF, AND, OR, IFERROR",
+          "SUMIFS and COUNTIFS",
+          "VLOOKUP, XLOOKUP, INDEX and MATCH",
+          "Pivot tables",
+          "Dashboards, KPIs and reporting"
+        ]
+      },
+      {
+        "title": "Advanced Excel",
+        "subtitle": "For intermediate users, controllers and data analysts",
+        "target": "Intermediate users, controllers, analysts and anyone building recurring reports.",
+        "goal": "Full autonomy in automating reporting processes: files that refresh themselves instead of being rebuilt every month.",
+        "duration": "16 hours",
+        "program": [
+          "From throwaway sheets to refreshable files",
+          "Power Query: connecting to data sources",
+          "Power Query: cleaning and transforming data",
+          "Connecting to online data sources",
+          "Structuring files ready for automation",
+          "Power Pivot and table relationships",
+          "Advanced dashboards and reporting",
+          "Advanced formulas: OFFSET, multi-column lookups"
+        ]
+      },
+      {
+        "title": "Power BI",
+        "subtitle": "From the Excel sheet to the company dashboard",
+        "target": "Analysts, controllers and department heads who build or use reports.",
+        "goal": "Move from static reports to shared, always up-to-date dashboards that management can rely on for decisions.",
+        "duration": "16-24 hours",
+        "program": [
+          "Database basics: tables, fields, relationships",
+          "Loading and cleaning data with Power Query",
+          "Pivot, unpivot, append and merge queries",
+          "Designing the data model and the date table",
+          "DAX: measures, CALCULATE, FILTER, iterators",
+          "Time intelligence: period comparisons and year-to-date",
+          "Dashboard design, navigation and bookmarks",
+          "Power BI Service: publishing, refresh, data security"
+        ]
+      },
+      {
+        "title": "Power Apps",
+        "subtitle": "Business apps without traditional development",
+        "target": "Key users, process owners and IT teams looking to digitize internal processes.",
+        "goal": "Replace paper forms, emails and shared Excel files with tailored internal apps, built and maintained in-house.",
+        "duration": "16 hours",
+        "program": [
+          "Power Platform overview and use cases",
+          "Canvas vs model-driven apps: when to use which",
+          "Data sources: SharePoint, Dataverse, Excel",
+          "Screens, forms and galleries",
+          "Power Fx formulas for logic and validation",
+          "Integration with Power Automate",
+          "Roles, permissions and sharing",
+          "Publishing, versioning and governance"
+        ]
+      },
+      {
+        "title": "Power Automate",
+        "subtitle": "Removing repetitive manual steps",
+        "target": "Anyone handling recurring tasks across email, files, approvals and notifications.",
+        "goal": "Get systems working together: less time on mechanical tasks, fewer errors, traceable processes.",
+        "duration": "8-16 hours",
+        "program": [
+          "Cloud flows: triggers, actions and connectors",
+          "Automations with Outlook, Teams, SharePoint and Excel",
+          "Conditions, loops and variables",
+          "Expressions and dynamic data",
+          "Approval flows",
+          "Error handling and monitoring",
+          "Introduction to Power Automate Desktop",
+          "Maintenance best practices"
+        ]
+      },
+      {
+        "title": "Office 365",
+        "subtitle": "Word, PowerPoint, Outlook, Teams, OneDrive and SharePoint",
+        "target": "The whole company, especially teams moving to Microsoft 365 or using only part of it.",
+        "goal": "Collaborate on shared documents without duplicate versions or email attachments, and find information in seconds.",
+        "duration": "8-16 hours",
+        "program": [
+          "Word: styles, templates and long documents",
+          "PowerPoint: clear, on-brand presentations",
+          "Outlook: mail, calendar and rules",
+          "Teams: channels, meetings and collaboration",
+          "OneDrive: storing and sharing files",
+          "SharePoint: sites, document libraries and permissions",
+          "Co-authoring and version history",
+          "Organizing company information"
+        ]
+      },
+      {
+        "title": "AI & Copilot 365",
+        "subtitle": "AI inside the tools you already use",
+        "target": "Employees with a Copilot license, managers and teams evaluating adoption.",
+        "goal": "Turn the Copilot license into measurable time saved on email, documents, meetings and analysis.",
+        "duration": "8 hours",
+        "program": [
+          "How Copilot works and how it handles company data",
+          "Writing effective prompts",
+          "Copilot in Outlook and Teams: email and meetings",
+          "Copilot in Word and PowerPoint: documents and decks",
+          "Copilot in Excel: analysis and formulas",
+          "Copilot Chat and agents",
+          "Use cases by department",
+          "Responsible use and company policies"
+        ]
+      },
+      {
+        "title": "Copilot Studio",
+        "subtitle": "AI agents built around your processes",
+        "target": "IT teams, key users and centers of excellence building internal AI assistants.",
+        "goal": "Build agents that answer questions on company documents and procedures, reducing repetitive requests to HR, IT and help desk.",
+        "duration": "8-16 hours",
+        "program": [
+          "What agents are and when you need one",
+          "Creating an agent and defining its behavior",
+          "Knowledge sources: SharePoint, websites, files",
+          "Topics and guided conversations",
+          "Actions with connectors and Power Automate",
+          "Authentication and security",
+          "Publishing to Teams and the web",
+          "Usage analytics and continuous improvement"
+        ]
+      }
+    ]
+  }
+}

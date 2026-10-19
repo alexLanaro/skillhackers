@@ -1,0 +1,28 @@
+{#- Menu principale: modifica qui le voci, valgono per tutte le pagine. I testi sono in _data/i18n.json -#}
+{%- set isCases = key == "casi-studio.html" or key.startsWith("caso-studio") -%}
+<nav class="nav">
+  <div class="container">
+    <a href="{{ p }}index.html" class="nav__logo"><img src="/assets/img/logo.png" alt="Skill Hackers"></a>
+    <ul class="nav__links">
+      <li><a href="{{ p }}consulenza.html"{% if key == "consulenza.html" %} aria-current="page"{% endif %}>{{ t.nav.consulting }}</a></li>
+      <li class="dropdown">
+        <a href="{{ p }}formazione-corporate.html"{% if key.startsWith("formazione") %} aria-current="page"{% endif %}>{{ t.nav.training }}</a>
+        <div class="dropdown__menu"><div class="dropdown__menu-inner">
+          <a href="{{ p }}formazione-corporate.html">{{ t.corp[0] }}<span>{{ t.corp[1] }}</span></a>
+          <a href="{{ p }}formazione-on-demand.html">{{ t.od[0] }}<span>{{ t.od[1] }}</span></a>
+          <a href="{{ site.platformLogin }}" class="dropdown__ext" target="_blank" rel="noopener">{{ t.lms[0] }} ↗<span>{{ t.lms[1] }}</span></a>
+        </div></div>
+      </li>
+      <li><a href="{{ p }}casi-studio.html"{% if isCases %} aria-current="page"{% endif %}>{{ t.nav.cases }}</a></li>
+      <li><a href="{{ p }}contatti.html"{% if key == "contatti.html" %} aria-current="page"{% endif %}>{{ t.nav.contact }}</a></li>
+      <li class="nav__mobile-cta"><a href="{{ site.booking }}" class="btn btn--primary" target="_blank" rel="noopener">{{ t.book }}</a></li>
+    </ul>
+    <div class="nav__right">
+      <div class="lang-switch">
+        <a href="/{{ key }}"{% if lang == "it" %} class="active"{% endif %}>IT</a>/<a href="/en/{{ key }}"{% if lang == "en" %} class="active"{% endif %}>EN</a>
+      </div>
+      <a href="{{ site.booking }}" class="nav__cta" target="_blank" rel="noopener">{{ t.book }}</a>
+      <button class="nav-toggle" aria-label="{{ t.menu }}" aria-expanded="false"><span></span></button>
+    </div>
+  </div>
+</nav>

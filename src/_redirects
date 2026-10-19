@@ -1,0 +1,7 @@
+# Netlify / Cloudflare Pages redirects
+# Vecchio indirizzo della pagina formazione, diviso in due pagine
+/formazione.html        /formazione-corporate.html      301
+/en/formazione.html     /en/formazione-corporate.html   301
+
+# Pagine inesistenti nella sezione inglese: 404 in inglese
+/en/*                   /en/404.html                    404
